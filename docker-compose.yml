@@ -60,6 +60,7 @@ services:
     - "9000:9000/tcp"   # Server API
     - "12201:12201/tcp" # GELF TCP
     - "12201:12201/udp" # GELF UDP
+    - "1514:1514/udp" # GELF UDP
     #- "10000:10000/tcp" # Custom TCP port
     #- "10000:10000/udp" # Custom UDP port
     - "13301:13301/tcp" # Forwarder data
